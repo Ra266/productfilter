@@ -1,0 +1,80 @@
+CRITICAL - 2024-01-05 05:08:35 --> fopen(http://localhost/productfilter//public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter//public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter//public/upload/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter//public/upload/')
+ 4 APPPATH\Controllers\UploadImage.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter//public/upload/', '1704431315_665f8b3543e6e6d47794.jpeg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 05:09:32 --> fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter/public/upload/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter/public/upload/')
+ 4 APPPATH\Controllers\UploadImage.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter/public/upload/', '1704431372_a1de99256e37427d843f.jpeg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 05:11:08 --> fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter/public/upload/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter/public/upload/')
+ 4 APPPATH\Controllers\UploadImage.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter/public/upload/', '1704431468_75bfb9eab76767dd845a.jpeg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 05:47:04 --> fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter/public/upload/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter/public/upload/')
+ 4 APPPATH\Controllers\UploadImage.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter/public/upload/', '1704433624_6bfae951f1f330bc5a31.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 06:05:00 --> fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter/public/upload/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter/public/upload/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter/public/upload/')
+ 4 APPPATH\Controllers\UploadImage.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter/public/upload/', '1704434700_37970a4b4e9b8f859589.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 06:08:19 --> fopen(http://localhost/productfilter/public/upload/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter/public/upload/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter/public/upload/image/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter/public/upload/image/')
+ 4 APPPATH\Controllers\UploadImage.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter/public/upload/image/', '1704434899_cb5b4e1167bd8a069a0f.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 06:33:41 --> fopen(http://localhost/productfilter/public/upload/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter/public/upload/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter/public/upload/image/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter/public/upload/image/')
+ 4 APPPATH\Controllers\UploadImage.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter/public/upload/image/', '1704436420_3d0b060cff66702c29e4.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 06:37:58 --> fopen(http://localhost/productfilter/public/upload/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/productfilter/public/upload/image/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\productfilter\\system\\HTTP\\Files\\UploadedFile.php', 188)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(188): fopen('http://localhost/productfilter/public/upload/image/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/productfilter/public/upload/image/')
+ 4 APPPATH\Controllers\UploadImage.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/productfilter/public/upload/image/', '1704436678_77af5f3fa9d994068793.jpeg')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

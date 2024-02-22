@@ -1,0 +1,202 @@
+CRITICAL - 2024-01-03 05:39:00 --> Invalid file: "deshboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deshboard.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('deshboard', [], true)
+ 3 APPPATH\Controllers\UploadImage.php(12): view('deshboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 05:39:07 --> Invalid file: "deshboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deshboard.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('deshboard', [], true)
+ 3 APPPATH\Controllers\UploadImage.php(12): view('deshboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:21:10 --> Undefined variable $data
+in APPPATH\Controllers\UploadImage.php on line 13.
+ 1 APPPATH\Controllers\UploadImage.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\productfilter\\app\\Controllers\\UploadImage.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:21:12 --> Undefined variable $data
+in APPPATH\Controllers\UploadImage.php on line 13.
+ 1 APPPATH\Controllers\UploadImage.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\productfilter\\app\\Controllers\\UploadImage.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:21:34 --> Undefined variable $data
+in APPPATH\Controllers\UploadImage.php on line 13.
+ 1 APPPATH\Controllers\UploadImage.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\productfilter\\app\\Controllers\\UploadImage.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:21:58 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:22:54 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:24:30 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:24:51 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:24:52 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:24:54 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:24:54 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:25:33 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:36:12 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\UploadImage.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:00:57 --> The route for "http://localhost/productfilter/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/dashboard')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(40): redirect('http://localhost/productfilter/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:01:22 --> The route for "http://localhost/productfilter/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/dashboard')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(40): redirect('http://localhost/productfilter/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:02:18 --> The route for "http://localhost/productfilter/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/dashboard')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(40): redirect('http://localhost/productfilter/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:02:24 --> The route for "http://localhost/productfilter/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/dashboard')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(40): redirect('http://localhost/productfilter/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:03:21 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\productfilter\\writable\\uploads/20240103/', '1704265401_640ec4a333bb10b5bcb7')
+ 3 APPPATH\Controllers\UploadImage.php(25): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:03:37 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\productfilter\\writable\\uploads/20240103/', '1704265417_9c1e29d9e215ca75342a')
+ 3 APPPATH\Controllers\UploadImage.php(25): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:05:10 --> The route for "http://localhost/productfilter/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/dashboard')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(40): redirect('http://localhost/productfilter/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:07:17 --> The route for "http://localhost/productfilter/view" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/view')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(36): redirect('http://localhost/productfilter/view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:08:18 --> The route for "http://localhost/productfilter/view" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/view')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(36): redirect('http://localhost/productfilter/view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:40:59 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard.php on line 19.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\UploadImage.php(16): view('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:51:39 --> The route for "http://localhost/productfilter/view" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/view')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(38): redirect('http://localhost/productfilter/view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:53:20 --> The route for "http://localhost/productfilter/view" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/productfilter/view')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UploadImage.php(38): redirect('http://localhost/productfilter/view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadImage->uploaddata()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadImage))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
